@@ -13,7 +13,6 @@ const app = {
         .post(`${this.apiUrl}/api/user/check`)
         .then((res) => {
           this.getData();
-          // console.log(data);
         })
         .catch((err) => {
           alert(err.data.message);
